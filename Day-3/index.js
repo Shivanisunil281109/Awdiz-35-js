@@ -37,12 +37,12 @@ console.log("Hello");
 function filter(){
 console.log(" Hi From Function filter");
 
-        }
+ };
 
-                filter();
-                filter();
-                filter();
-                filter();
+ filter();
+ filter();
+ filter();
+ filter();
 
 
 
