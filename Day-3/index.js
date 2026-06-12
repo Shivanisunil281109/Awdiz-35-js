@@ -19,24 +19,24 @@ console.log(10 > 20   || 10 > 30   || 20 > 30);
 
 
 
-               Functions 
+   Functions 
 
-              Types of Functions
+   Types of Functions
 
-         1. Function declaration
+  1. Function declaration
 
-        //   Syntax of  Function declaration
+ //   Syntax of  Function declaration
         function functionName(){
             multiplelines code
         }
         
 
 
-         filter();
-        console.log("Hello");
+ filter();
+console.log("Hello");
 
-        function filter(){
-        console.log(" Hi From Function filter");
+function filter(){
+console.log(" Hi From Function filter");
 
         }
 
@@ -50,20 +50,20 @@ console.log(10 > 20   || 10 > 30   || 20 > 30);
 
 
            
-        2. function Expression
+ 2. function Expression
 
-        const filter = function () {
-            console.log("function Expression");
-        };
-        filter();
-
-
+const filter = function () {
+console.log("function Expression");
+     };
+filter();
 
 
-       3. Arrow Function
 
-    const filter = () => {
-        console.log("Arrow function")
+
+3. Arrow Function
+
+const filter = () => {
+console.log("Arrow function")
     };
     filter();
     filter();
