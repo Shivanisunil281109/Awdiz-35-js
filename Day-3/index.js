@@ -18,17 +18,16 @@ console.log(10 > 20   || 10 > 30   || 20 > 30);
 
 
 
+ Functions 
 
-   Functions 
+Types of Functions
 
-   Types of Functions
+ 1. Function declaration
 
-  1. Function declaration
-
- //   Syntax of  Function declaration
-        function functionName(){
-            multiplelines code
-        }
+//   Syntax of  Function declaration
+function functionName(){
+ multiplelines code
+    }
         
 
 
@@ -125,7 +124,7 @@ console.log("Arrow function")
 
 
 
-          Arrow Function with Parameters
+ Arrow Function with Parameters
 
     const multiplication = (v1,v2,v3)=>{
 console.log(v1 *v2 *v3)
