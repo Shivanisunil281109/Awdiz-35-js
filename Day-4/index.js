@@ -41,12 +41,12 @@
    
  ];
 
-  console.log(students );
-  console.log(students [1]);
- console.log(students [2]);
-  console.log(students [3]);
-  console.log(students.length);
-    console.log(students[students.length-1]);
+console.log(students );
+console.log(students [1]);
+console.log(students [2]);
+console.log(students [3]);
+console.log(students.length);
+console.log(students[students.length-1]);
 
 console.log((students.length-1) / 2);
 console.log(students[(students.length-1) / 2]);
