@@ -76,7 +76,7 @@ console.log(numbers, firstElement);
  numbers.unshift(1);
  console.log(numbers);
 
-Question 2: Add "A" at the Start
+// Question 2: Add "A" at the Start
 
 const alphabets =["B","C","D"];
 alphabets.unshift("a");
@@ -174,7 +174,7 @@ console.log(totalAmount,"totalAmount");
 
 // 9. reduce() - Cart Total 
 
-Question 1: Calculate the Total Bill of Cart Items
+// Question 1: Calculate the Total Bill of Cart Items
 
 const cart = [500,1200,800];
 
