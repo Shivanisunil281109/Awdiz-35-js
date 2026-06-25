@@ -1,12 +1,12 @@
 
               // Nested for Loop
 
-// for (let i = 1; i <= 2; i++) {
-//   console.log(i);
-//   for (let j = 1; j <= 2; j++) {
-//     console.log(j);
-//   }
-// }
+for (let i = 1; i <= 2; i++) {
+  console.log(i);
+  for (let j = 1; j <= 2; j++) {
+    console.log(j);
+  }
+}
 
 
 
@@ -56,22 +56,22 @@
 
 // Q.1 find biggest number from given array\
 
-// let numbers = [1,2,3,4,];
-// let biggestNumber = 0;
+let numbers = [1,2,3,4,];
+let biggestNumber = 0;
 
-// for (let i = 0; i < numbers.length; i++) 
-// {
-//   console.log(numbers[i],"i");
+for (let i = 0; i < numbers.length; i++) 
+{
+  console.log(numbers[i],"i");
 
-//   for (let j = i + 1; j < numbers.length; j++) 
-// {
-//     console.log(numbers[j],"j");
-// if(numbers[i]< numbers[j]){
-//     biggestNumber = numbers[j];
-//      }
-//    }
-// }
-// console.log(biggestNumber,"biggestNumber");
+  for (let j = i + 1; j < numbers.length; j++) 
+{
+    console.log(numbers[j],"j");
+if(numbers[i]< numbers[j]){
+    biggestNumber = numbers[j];
+     }
+   }
+}
+console.log(biggestNumber,"biggestNumber");
 
 
 
@@ -80,22 +80,22 @@
 
 // Q.1 find biggest number from given array\
 
-// let numbers = [12,23,45,32,23,77,65,44,36,84,24];
-// let biggestNumber = 0;
+let numbers = [12,23,45,32,23,77,65,44,36,84,24];
+let biggestNumber = 0;
 
-// for (let i = 0; i < numbers.length; i++) 
-// {
-//   console.log(numbers[i],"i");
+for (let i = 0; i < numbers.length; i++) 
+{
+  console.log(numbers[i],"i");
 
-//   for (let j = i + 1; j < numbers.length; j++) 
-// {
-//     console.log(numbers[j],"j");
-// if(numbers[i]< numbers[j]){
-//     biggestNumber = numbers[j];
-//      }
-//    }
-// }
-// console.log(biggestNumber,"biggestNumber");
+  for (let j = i + 1; j < numbers.length; j++) 
+{
+    console.log(numbers[j],"j");
+if(numbers[i]< numbers[j]){
+    biggestNumber = numbers[j];
+     }
+   }
+}
+console.log(biggestNumber,"biggestNumber");
 
 
 
@@ -128,23 +128,23 @@
 
 // Q Print numbers from 1 - 10 with while loop
 
-// let i=1;
-// while(i<=10)
-// {
-// console.log(i);
-// i++;
-// }
+let i=1;
+while(i<=10)
+{
+console.log(i);
+i++;
+}
 
 
 
 // Q Print numbers from 1 - 3 with while loop
 
-// let i=1;
-// while(i<=3)
-// {
-// console.log(i);
-// i++;
-// }
+let i=1;
+while(i<=3)
+{
+console.log(i);
+i++;
+}
 
 
 
@@ -177,22 +177,22 @@
 
 // 1. Decrementing While Loop
 
-// let i = 10;
-// while (i>=1)
-// {
-// console.log(i)
-// i--
-// }
+let i = 10;
+while (i>=1)
+{
+console.log(i)
+i--
+}
 
 
 // 2. Incrementing While Loop
 
-// let i = 10;
-// while (i<=1)
-// {
-// console.log(i)
-// i++
-// }
+let i = 10;
+while (i<=1)
+{
+console.log(i)
+i++
+}
 
 
 
@@ -202,66 +202,66 @@
 
 //  var nums =[1,2,3,4,5];
 
- // var userData = { key : value , key2 : value2, key3 :value3}
+//  var userData = { key : value , key2 : value2, key3 :value3}
 
-//  var userData={
-//     name:"Awdiz",
-//     surname:"Institute",
-//     age: 12,
-//     location:"Bandra",
-//     isopen:false,
-//     courses: ["full stack", "cloud", "networking"],
-//     students: { fullStack: 50, cloud: 100, networking: 150 },
+ var userData={
+    name:"Awdiz",
+    surname:"Institute",
+    age: 12,
+    location:"Bandra",
+    isopen:false,
+    courses: ["full stack", "cloud", "networking"],
+    students: { fullStack: 50, cloud: 100, networking: 150 },
     
     
-//     };
- // console.log(userData);
+    };
+ console.log(userData);
 
-// console.log(userData.age);
-// console.log(userData.name);
-// console.log(userData.surname);
-// console.log(userData.location);
-// console.log(userData. isopen);
-// console.log(userData.courses); 
-// console.log(userData.students);
-
-
-// console.log(userData["age"]);
-// console.log(userData["name"]);
-// console.log(userData["surname"]);
-// console.log(userData["location"]);
-// console.log(userData["isopen"]);
-
-// console.log(userData.students.networking);
-
-// console.log(userData.courses[userData.courses.length - 1]);
+console.log(userData.age);
+console.log(userData.name);
+console.log(userData.surname);
+console.log(userData.location);
+console.log(userData. isopen);
+console.log(userData.courses); 
+console.log(userData.students);
 
 
+console.log(userData["age"]);
+console.log(userData["name"]);
+console.log(userData["surname"]);
+console.log(userData["location"]);
+console.log(userData["isopen"]);
 
-// const myobject={
-//     name:"Awdiz",
-//     greet:function(){
-//     return "Hi";
-//     }
-// }
-// // console.log(myobject,"myobject")
-// console.log(myobject.name,"name");
-// console.log(myobject.greet,"greet");
-// console.log(myobject.greet(),"greet");
+console.log(userData.students.networking);
+
+console.log(userData.courses[userData.courses.length - 1]);
 
 
 
+const myobject={
+    name:"Awdiz",
+    greet:function(){
+    return "Hi";
+    }
+}
+// console.log(myobject,"myobject")
+console.log(myobject.name,"name");
+console.log(myobject.greet,"greet");
+console.log(myobject.greet(),"greet");
 
-// const myobject={
-//     name:"Awdiz",
-//     greet:function(){
-//     return this.name;
-//     }
-// }
-// // console.log(myobject,"myobject")
-// console.log(myobject.name,"name");
-// console.log(myobject.greet,"greet");
-// console.log(myobject.greet(),"greet");
+
+
+
+const myobject={
+    name:"Awdiz",
+    greet:function(){
+    return this.name;
+    }
+}
+// console.log(myobject,"myobject")
+console.log(myobject.name,"name");
+console.log(myobject.greet,"greet");
+console.log(myobject.greet(),"greet");
 
 
 
