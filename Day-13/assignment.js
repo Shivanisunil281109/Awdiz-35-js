@@ -5,9 +5,6 @@ console.log("start")
 console.log("processing ")
 console.log("end")
 
-// setTimeout(function,delay in milisecond)
-
-
 
 
 
