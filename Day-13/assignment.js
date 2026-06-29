@@ -13,7 +13,7 @@ console.log("end")
 
 
 
-// Asynchronous Programming using setTimeout()
+// setTimeout(function, delay in milisecond)
 
 console.log("start");
 setTimeout(()=> {
