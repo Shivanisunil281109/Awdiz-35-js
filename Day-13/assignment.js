@@ -123,8 +123,6 @@ console.log("end");
 
 // setInterval() and clearInterval()
 
-// setInterval(function,delay in milisecond)
-
 var counter =0;
 const intervalid = setInterval(()=> {
     console.log("Hello");
