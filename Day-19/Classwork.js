@@ -1,5 +1,5 @@
 
-
+// Inheritance using Classes (extends & super())
 
 class Person{
 constructor(name,age){
@@ -27,6 +27,10 @@ student1.data();
 
 
 
+
+
+
+// Encapsulation using Private Fields (#)
 class Bank{
     #balance = 0;
     deposite (amount){
@@ -39,6 +43,10 @@ const bank1 =new Bank();
 bank1.deposite(1000);
 bank1.deposite(1000);
 // console.log(bank1.#balance);
+
+
+
+
 
 
 
@@ -105,9 +113,6 @@ console.log(output,"output");
 
 
 
-
-
-
 // find maximum and minimum  count of number in Array
 
 const numbers = [1,2,2,3,3,3,4,5,5,5,6,6,6,6,7,8,8,8,8,8,9,9,9,9,9];
@@ -157,43 +162,6 @@ return [Number(maxElement), Number(minElement)];
 
 const output = findMaxMinCount(numbers);
 console.log(output,"output");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
