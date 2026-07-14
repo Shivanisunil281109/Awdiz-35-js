@@ -51,7 +51,7 @@ bank1.deposite(1000);
 
 
 
-
+// DSA Question
 
 // find maximum and minimum  count of number in Array
 
@@ -111,7 +111,7 @@ console.log(output,"output");
 
 
 
-// DSA Question
+
 
 // find maximum and minimum  count of number in Array
 
